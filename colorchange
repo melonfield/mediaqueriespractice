@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>untitled</title>
+  <style>
+    #container  {
+      background: green;
+      width: 500px;
+      height: 200px;
+      }
+      
+      @media screen and (min-width: 768px) {
+        #container {background: blue;}
+        }
+      
+      @media screen and (min-width: 375px) {
+        #container {background: red;}
+        }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+</body>
+</html>
